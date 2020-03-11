@@ -10,4 +10,4 @@ git の練習をしたりするレポジトリだよ
 ブランチを切り忘れると何もなくなってしまうよ
 
 ## これは kyuu ちゃん
-![kyuu_icon.jpg](kyuu_icon.jpg)
+![kyuu_icon.jpg](./Kyuu_icon.JPG)
