@@ -23,4 +23,10 @@ Open the repository in your external editorのOpen in...を選択
     VS版の参考サイトはこれ
     https://eng-entrance.com/texteditor-vscode
 
-kenpo.txtに「名前＋読んだよ」って書いて好きに編集しちゃおう！
+      kenpo.txtに「名前＋読んだよ」って書いて好きに編集しちゃおう！
+
+４自分が編集したファイルをGitHubで共有しよう
+    ３で好きに編集した後ファイルを保存してGitDesktopの青いcommit to masterをクリック
+    Push to originを押して完了
+
+おめでと！これで君もCube国の一員じゃ
