@@ -24,3 +24,6 @@ GitHubでまず初めにやることを説明してるよ
         https://eng-entrance.com/texteditor-vscode
 
     kenpo.txtに「名前＋読んだよ」って書いて好きに編集しちゃおう！
+
+４自分が編集したファイルをGitHubで共有しよう
+    ３で好きに編集した後ファイルを保存してGitDesktopの青いcommit to masterをクリック
