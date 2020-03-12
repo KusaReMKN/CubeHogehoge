@@ -14,6 +14,7 @@ GitHubでまず初めにやることを説明してるよ
 https://github.com/KusaReMKN/CubeHogehoge.gitにアクセスして
 緑のClone or downloadをクリック
 Open in Desktopを選択
+GitDesktopに移動するので
 Open the repository in your external editorのOpen in...を選択
 
     ※テキストエディターが入っていないときは
@@ -28,5 +29,13 @@ Open the repository in your external editorのOpen in...を選択
 ４自分が編集したファイルをGitHubで共有しよう
     ３で好きに編集した後ファイルを保存してGitDesktopの青いcommit to masterをクリック
     Push to originを押して完了
+
+５最後に自分で遊べるフォルダをIndividualの中に作ろう
+    GitDesktopのCurrent branchでIndividualに移動
+    3でやった時みたいにテキストエディターで開く
+    （Open the repository in your external editorのOpen in...のところ）
+    新規フォルダ作成で自分のフォルダを作成する
+    作ったフォルダの中で新規ファイルを作成してなんか書いてGitHubに共有しよう４とやり方は同じだよ
+    自分のフォルダは好きにいじってOK
 
 おめでと！これで君もCube国の一員じゃ

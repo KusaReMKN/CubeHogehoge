@@ -1,0 +1,27 @@
+projectリーダーになったら作業用branchを作ろう
+
+１projectの枝を作ろう
+    Current branchがmasterになってることを確認して▽をクリック
+    New branchを選択しprojectの名前を入れたらCreate branchをクリック
+    Publish branchをクリックしてCreate Pull Requestをすれば自分の枝が完成！
+    あとはGitHubの管理者がOKするのを待つだけ！
+
+２GitHubのほうに戻って枝ができてるか確認しよう
+　　GitHubに戻ってリロードする
+    Branch　masterの▽をクリックして自分の枝に移動する
+    Branchのところが自分のプロジェクト名になってたらOK
+
+３Projectの説明を書こう
+    Open the repository の欄のOpen in ...を押してエディターを開こう
+    ブロック崩しサンプルのProjectの説明を参考にしてプロジェクトの概要をまとめる
+    （いつでも編集はできるのでプロジェクト名、開始日、リーダーをまずは入力）
+    保存したらGitDesktopに戻りcommit to 自分のプロジェクト枝をする
+    Push to originをクリックして完了
+    GitHubに上がっているのか確認する
+
+
+ガントチャートの作り方
+https://www.google.com/intl/ja_jp/sheets/about/にアクセスして
+Googleスプレッドシートを使ってみるを選択
+ブロック崩しサンプルのスプレッドシートを参考にランク分け等をしていく
+リーダーはちゃんと進捗確認しようね☆
