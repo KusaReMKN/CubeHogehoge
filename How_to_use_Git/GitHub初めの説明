@@ -39,3 +39,9 @@ Open the repository in your external editorのOpen in...を選択
     自分のフォルダは好きにいじってOK
 
 おめでと！これで君もCube国の一員じゃ
+
+６エキストラステージ
+    すでにあるプロジェクトファイルをGitHubにのせたいよって時
+    Viewthe the fielsの欄のShow in Explorerをクリック
+    GitHubのフォルダが表示されるのでそこに追加したいプロジェクトをコピーorドラック＆ドロップ
+    あとは4のようにcommit（ryすればOK
