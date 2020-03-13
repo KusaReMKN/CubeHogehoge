@@ -1,12 +1,14 @@
-# GitHubでまず初めにやることを説明してるよ
+# GitHub でまず初めにやることを説明してるよ
 
-## 1. GitHubDesktopをインストールしよう
+## 1. GitHubDesktop をインストールしよう
 
 [https://desktop.github.com/](https://desktop.github.com/)
 にアクセスして GitHubDesktop をダウンロード
+
 ![ダウンロードページの図](./img/img10.png)
 
 インストーラを起動してインストールする
+
 ![インストーラを起動した図](./img/img20.png)
 
 
@@ -22,9 +24,11 @@
 
 [https://github.com/KusaReMKN/CubeHogehoge](https://github.com/KusaReMKN/CubeHogehoge) にアクセス。
 **Clone or download** をクリックして **Open in Desktop** を選択。
+
 ![ここまでの流れの図](./img/img30.png)
 
 Open the repository in your external editor の **Open in Atom** もしくは **Open in Visual Stdui Code** を選択
+
 ![エディタで開く図](./img/img40.png)
 
 ※テキストエディターが入っていないときは
@@ -36,9 +40,11 @@ kenpo.txtに「名前＋読んだよ」って書いて好きに編集しちゃ�
 
 ## 4. 自分が編集したファイルをGitHubで共有しよう
 3\. で好きに編集した後ファイルを保存して、コミットメッセージを書いたら GitHubDesktop の青い **Commit to master** をクリック。
+
 ![コミットする図](./img/img50.png)
 
 Push to originを押して完了
+
 ![プッシュする図](./img/img60.png)
 
 ## 5. おわり
