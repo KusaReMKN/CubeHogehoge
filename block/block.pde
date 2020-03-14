@@ -1,18 +1,23 @@
-int mx = 150;
-int my = 360;
+//
+//ラケットの初期位置設定
+int mx = 150;//ラケットのｘ座標をウィンドウの真ん中に設定(あとでmx = mouseXとする)
+int my = 360;//ラケットのy座用を設定(ずっと一定のまま)
 
-float bx = 150;
-float by = 120;
+//ボールの初期位置設定
+float bx = 150;//ボールのx座標をウィンドウの真ん中に設定
+float by = 120;//ボールのy座標を設定
 
-float lv = 3;
-float bsx = lv;
-float bsy = lv;
 
-int blockX = 10;
-int blockY = 4;
+float lv =3;  //ボールの速さを設定
+float bsx = lv;//ボール横向きの速さ
+float bsy = lv;//ボール縦向きの速さ
+
+int blockX = 10;//ブロック横方向の数
+int blockY = 4;//ブロック縦方向の数
+//ブロックそれぞれを配列するよ
 int [] blf = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
 
-int score = 0;
+int score = 0;//最初のスコア設定
 
 void setup () {
   size (300, 400);
@@ -24,7 +29,8 @@ void setup () {
 void draw() {
   mx = mouseX;
   
-  lv = 3 + score /500;
+//ラケットにあったったら進行方向逆転
+//壁にあったったら進行方向逆転させよう
   bx = bx + bsx;
   by = by + bsy;
 
@@ -45,7 +51,7 @@ void draw() {
 
     by = 120;
 
-    lv = 3 + score /500;
+ 
     bsx = lv;
     bsy = lv;
 
@@ -76,15 +82,15 @@ void draw() {
   }
 
 
-  background (200, 255, 255);
-  rectMode(CENTER);
-  ellipseMode(CENTER);
+  background (200, 255, 255);//背景設定
+  rectMode(CENTER);//四角の中心を真ん中に
+  ellipseMode(CENTER);円の中心を真ん中に
   
-  
+  //ラケットの設定
   fill (0, 0, 255);
   rect (mx, my, 50, 10);
   ellipse (bx, by, 15, 15);
-
+//ブロックの生成
   for (int j = 0; j < blockY; j++) {
 
     for (int i = 0; i < blockX; i++) {
