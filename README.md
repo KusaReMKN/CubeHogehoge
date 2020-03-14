@@ -15,7 +15,9 @@
 ## 初めての人は
 [ここ](./How_to_use_Git/GitHubDesktopABCs.md) から初めてみてね
 [ここ](./How_to_use_Git/HowToUseGitMore.md) にはもっと詳細な説明があるよ
-	
+[コマンドライン操作まとめ](./How_to_use_Git/gitcmdline/index.md) も参照してね
+[便利リンク](./How_to_use_Git/gitcmdline/mknlink.md) をまとめたよ
+
 
 ## ブランチの切り忘れに注意してね
 
