@@ -33,6 +33,7 @@ MS-Win の場合は [**Git for Windows**](https://gitforwindows.org/) をイン�
 
 MS-Win を使っていて、 Linux の雰囲気を味わいたい場合は、Windows 10 に限って [こんなもの](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) があります。
 それ以外の場合は、[Oracle VM VirtualBox](https://www.oracle.com/technetwork/jp/server-storage/virtualbox/overview/index.html) あたりと [適当な Linux デストリビューション](https://www.debian.org/) を落としてきてください。
+**[インストール方法](../howtoinstalldebian/index.md)を書きました**。
 CygWin という選択肢もありますが、パッケージのインストールが面倒くさいのでお勧めできません。
 
 Linux は Debian 系を前提とします。
