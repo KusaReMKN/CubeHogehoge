@@ -166,7 +166,7 @@ $ git branch -d ブランチ
 
 とりあえず適当にファイルに書き込んでみることにします。
 おそらく `./test.txt` があるので適当なエディタで開くかなんかしてください。
-*Vim の上書き終了は \[Esc\] 押して `:wq` \[Enter\] だぞ！*
+*Vim の上書き終了は <kbd><kbd>Esc</kbd></kbd> 押して `:wq` <kbd><kbd>Enter</kbd></kbd> だぞ！*
 
 ```
 $ vim test.txt
